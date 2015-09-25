@@ -1,0 +1,12 @@
+$(document).ready(function(){
+    $("#show-parts").click(function(event){
+      /*$('#parts-in-box').removeClass('hidden');*/
+        event.preventDefault();
+        $("#parts-in-box").slideDown();
+        $("#main").slideUp();
+    });
+    $("#exit-parts").click(function(){
+        $("#parts-in-box").slideUp();
+        $("#main").slideDown();
+    });
+});

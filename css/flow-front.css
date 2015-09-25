@@ -1,0 +1,29 @@
+/* Button */
+
+img {
+	width: 90%;
+	max-width: 180px;
+}
+
+button.blue {
+	background: #00adef;
+	margin-top: 40px;
+	width: 90%;
+	max-width: 280px;
+	height: 80px;
+}
+
+button.blue:hover {
+	background: #358DC0;
+}
+
+/*@media (max-width: 24em) {
+	img {
+		width: 70%;
+	}
+	button.blue {
+		width: 50%;
+		height: 60px;
+	}
+}
+*/

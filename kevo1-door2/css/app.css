@@ -1,0 +1,375 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+h1, h2, h3, h4, p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.9rem;
+}
+
+#main {
+  padding-bottom: 28vh;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.top-bar {
+  margin-bottom: 30px;
+  background-color: #939598;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background-color: #939598;
+  transition: background-color 300ms ease-out;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background-color: #757575;
+}
+
+.top-bar.expanded .title-area {
+  background-color: #b3b4b6;
+  border-bottom: 2px solid #00adf3;
+}
+
+.light {
+  color: #939598;
+}
+
+.red-text {
+  color: #ff0000;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.row {
+  margin-bottom: 25px;
+}
+
+.section {
+  margin-bottom: 70px;
+}
+
+.white-text {
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+button, .button {
+  border-style: solid;
+  border-width: 0;
+  cursor: pointer;
+  line-height: normal;
+  margin: 0;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0;
+  display: inline-block;
+  padding-top: .5rem;
+  padding-right: 1.5rem;
+  padding-bottom: .3rem;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+  background-color: #939598;
+  color: #FFFFFF;
+  transition: background-color 300ms ease-out; 
+}
+
+button:hover, button:focus, .button:hover, .button:focus {
+  background-color: #757575;
+}
+
+button:hover, button:focus, .button:hover, .button:focus {
+  color: #FFFFFF;
+}
+
+.item-title {
+  color: white;
+  background-color: #00adf3;
+  padding: 8px 10px;
+  transition: background-color 300ms ease-out;
+}
+
+.item-title:hover, .item-title:focus {
+  background-color: #009bda;
+}
+
+.next {
+  color: white;
+  background-color: #00adf3;
+  padding: 8px 5rem;
+  margin: 0;
+  transition: background-color 300ms ease-out;
+}
+
+.next:hover, .next:focus {
+  background-color: #009bda;
+}
+
+.two-choices {
+  margin: 0 5rem;
+  padding: 8px 4rem;
+}
+
+.wide-button {
+  margin: 0 5rem;
+}
+
+.step-number {
+  color: white;
+  background-color: #00adf3;
+  position: relative;
+  left: 1px;
+  padding: 5px 20px;
+  margin: -1px 20px 20px 0px;
+}
+
+.step-number-light {
+  background-color: #4fd1f9;
+  color: white;
+  position: relative;
+  left: 1px;
+  padding: 5px 20px;
+  margin: -1px 20px 20px 0px;
+}
+
+.panel {
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #00adf3;
+  transition: background-color 300ms ease-out;
+}
+
+.panel img {
+  padding: 10px 4rem;
+}
+
+.no-padding-bottom-panel {
+  padding: 10px 4rem 0 4rem;
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #00adf3;
+  transition: background-color 300ms ease-out;
+}
+
+.no-padding-top-panel {
+  padding: 0 4rem 10px 4rem;
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #00adf3;
+  transition: background-color 300ms ease-out;
+}
+
+.door-panel {
+  padding: 0 13rem 0 0;
+  margin-bottom: 1.25rem;
+  border: 2px solid;
+  border-color: #00adf3;
+  transition: background-color 300ms ease-out;
+}
+
+.door-panel-opposite {
+  padding: 0 0 0 13rem;
+  margin-bottom: 1.25rem;
+  border: 2px solid;
+  border-color: #00adf3;
+  transition: background-color 300ms ease-out;
+}
+
+a .panel:hover, a .panel:focus, a .door-panel:hover, a .door-panel:focus, a .door-panel-opposite:hover, a .door-panel-opposite:focus {
+  background-color: #dff6ff;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.item-title {
+  color: white;
+  background-color: #00adf3;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  position: relative;
+  top: -25px;
+  transition: background-color 300ms ease-out;
+}
+
+.item-title:hover, .item-title:focus {
+  background-color: #009bda;
+}
+
+.attention {
+  position: relative;
+  top: .45rem;
+  margin-right: 15px;
+  width: 2rem;
+}
+
+/* Large Screens */
+@media only screen and (min-width: 64.063em) {}
+
+/* Medium Screens */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  h2 {
+    font-size: 1.65rem;
+  }
+
+  .row {
+    margin-bottom: 20px;
+  }
+
+  .section {
+    margin-bottom: 55px;
+  }
+
+  .panel img {
+    padding: 10px 10rem;
+  }
+
+  .no-padding-bottom-panel {
+    padding: 10px 10rem 0 10rem;
+  }
+
+  .no-padding-top-panel {
+    padding: 0 10rem 10px 10rem;
+  }
+
+  .door-panel {
+    padding: 0 10rem 0 0;
+  }
+
+  .door-panel-opposite {
+    padding: 0 0 0 10rem;
+  }
+
+  .two-choices {
+    margin: 0 3rem;
+    padding: 8px 4rem;
+  }
+
+  .attention {
+    position: relative;
+    top: -0.25rem;
+    margin-right: 15px;
+    width: 2.35rem;
+  }
+
+  .no-padding {
+    padding: 0;
+  }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 40em) { 
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  h2 {
+    font-size: 1.45rem;
+  }
+
+  .row {
+    margin-bottom: 20px;
+  }
+
+  .section {
+    margin-bottom: 45px;
+  }
+
+  button, .button {
+    margin: 0; 
+    padding-right: .7rem;
+    padding-bottom: .3rem;
+    padding-left: .7rem;
+  }
+
+  .step-number, .step-number-light {
+    margin: -1px 20px 50px 0px;
+  }
+
+  .panel img {
+    padding: 10px 2.65rem;
+    max-height: 300px;
+  }
+
+  .no-padding-bottom-panel {
+    padding: 10px 2.65rem 0 2.65rem;
+  }
+
+  .door-panel {
+    padding: 0 3rem 0 0;
+  }
+
+  .door-panel-opposite {
+    padding: 0 0 0 3rem;
+  }
+
+  .next {
+    margin: 0;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .two-choices {
+    margin: 0 1.5rem;
+    padding: 8px 2rem;
+  }
+
+  .wide-button {
+    margin: 0 2.75rem;
+    padding-right: .6rem;
+    padding-bottom: .3rem;
+    padding-left: .6rem;
+  }
+
+  .attention {
+    position: relative;
+    top: -0.25rem;
+    margin-right: 15px;
+    width: 2.12rem;
+  }
+
+  .no-padding {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .nav-bg {
+    position: absolute;
+    width: 100vw;
+    height: 54px;
+    background-color: #a8aaac;
+  }
+
+  h1 {
+    font-size: 1.61rem;
+  }
+
+  h4 {
+    font-size: 1.04rem;
+  }
+}
